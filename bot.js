@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = ['389090790984515594','350408440566382592'];
+const devs = ['331081268731052042','363665982167842826'];
 var prefix = "!";
 const adminprefix = "!"
 const db = require('quick.db');
@@ -335,7 +335,7 @@ coll.first().delete()
 client.on('ready', function(){
   client.user.setStatus("dnd");
     var ms = 40000 ;	
-    var setGame = ['!inv','!help'];	
+    var setGame = ['Blore Admin...'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2773,7 +2773,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/yDHQZhC**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/cNDSrFg**")
      
      
   message.channel.sendEmbed(embed);
