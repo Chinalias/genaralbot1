@@ -31,7 +31,7 @@ const sql = require("sqlite");
 ,ti={}  
 ,spee={};
 
- 
+Blore
 
 const superagent = require("superagent")
 client.on('message' , async (message) => {
@@ -334,7 +334,7 @@ coll.first().delete()
 
 client.on('ready', function(){
   client.user.setStatus("dnd");
-    var ms = 40000 ;	
+    var ms = 0 ;	
     var setGame = ['Blore Admin...'];	
     var i = -1;	
     var j = 0;	
@@ -346,7 +346,7 @@ j = 1;
             j = -1;	
       }	
        i = i+j;	
-        client.user.setGame(setGame[i],`http://www.youtube.com/gg`);	
+        client.user.setGame(setGame[i],`https://www.twitch.tv/Baktash_83`);	
 }, ms);	
 	
 });
