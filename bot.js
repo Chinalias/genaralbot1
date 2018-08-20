@@ -31,7 +31,6 @@ const sql = require("sqlite");
 ,ti={}  
 ,spee={};
 
-Blore
 
 const superagent = require("superagent")
 client.on('message' , async (message) => {
