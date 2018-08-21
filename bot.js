@@ -31,6 +31,8 @@ const sql = require("sqlite");
 ,ti={}  
 ,spee={};
 
+
+
 const superagent = require("superagent")
 client.on('message' , async (message) => {
  if (message.content.startsWith(prefix + 'yn')) {
@@ -1532,22 +1534,6 @@ client.on('message', msg => {
 };
 });
 
-client.on('message', message => { 
-	var prefix = "!";
- let args = message.content.split(' ').slice(1);
-    if(message.content.startsWith(prefix + 'short')) {
-    if(!message.channel.guild) return;  
-
-        googl.setKey('AIzaSyC2Z2mZ_nZTcSvh3QvIyrmOIFP6Ra6co6w');
-        googl.getKey();
-        googl.shorten(args.join(' ')).then(shorturl => {
-            message.channel.send(''+shorturl)
-        }).catch(e=>{
-            console.log(e.message);
-            message.channel.send('Error!');
-        });
-}
-});
 
 client.on('message', message => {
 	var prefix = "!";
