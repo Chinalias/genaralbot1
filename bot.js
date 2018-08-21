@@ -31,7 +31,7 @@ const sql = require("sqlite");
 ,ti={}  
 ,spee={};
 
-Stream
+
 
 const superagent = require("superagent")
 client.on('message' , async (message) => {
