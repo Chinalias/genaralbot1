@@ -33,7 +33,6 @@ const sql = require("sqlite");
 
 
 
-message.channel.send("..")
 
 const superagent = require("superagent")
 client.on('message' , async (message) => {
