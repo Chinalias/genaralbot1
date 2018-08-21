@@ -28,7 +28,8 @@ const sql = require("sqlite");
  const dateFormat = require('dateformat'); 
  const pretty = require('pretty-ms') 
 
-
+,ti={}  
+,spee={};
 
 const superagent = require("superagent")
 client.on('message' , async (message) => {
